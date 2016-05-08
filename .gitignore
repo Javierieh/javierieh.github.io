@@ -1,7 +1,3 @@
-# Ignore everything but static /_site folder
-/*
-*
-!.nojekyll
-!README.md
-!/_site/
-!.gitignore
+_site/
+.sass-cache/
+.jekyll-metadata
