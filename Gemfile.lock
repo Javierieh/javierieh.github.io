@@ -1,11 +1,4 @@
 GIT
-  remote: https://github.com/Javierieh/pixyll.git
-  revision: 3a9eef0cc9e3750ad2244d0a80763a1429bd856a
-  branch: master
-  specs:
-    pixyll (2.8.0)
-
-GIT
   remote: https://github.com/jekyll/jekyll.git
   revision: b7bf19ff3143fae9cbf36413dda330febe6d0746
   branch: master
@@ -20,11 +13,17 @@ GIT
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
 
+PATH
+  remote: _themes/pixyll
+  specs:
+    pixyll (2.8.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
     colorator (1.0.0)
     ffi (1.9.10)
+    jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
     jekyll-watch (1.4.0)
@@ -47,6 +46,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll!
+  jekyll-paginate
   pixyll!
 
 BUNDLED WITH
